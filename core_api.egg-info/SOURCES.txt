@@ -1,0 +1,15 @@
+setup.py
+apps/__init__.py
+apps/core/__init__.py
+apps/core/db.py
+apps/core/error_codes.py
+apps/core/exceptions.py
+apps/tags/__init__.py
+apps/tags/models.py
+apps/tags/schemas.py
+apps/tags/views.py
+core_api.egg-info/PKG-INFO
+core_api.egg-info/SOURCES.txt
+core_api.egg-info/dependency_links.txt
+core_api.egg-info/requires.txt
+core_api.egg-info/top_level.txt

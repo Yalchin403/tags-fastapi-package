@@ -1,0 +1,7 @@
+fastapi
+SQLAlchemy
+psycopg2-binary
+pydantic-settings
+dependency-injector
+uvicorn
+alembic

@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: core-api
+Version: 0.0.1
+Summary: This core API provides TAGS API with CRUD functionality
+Author: Yalchin Mammadli
+Author-email: yalchinmammadli@outlook.com
+Requires-Python: >=3.11.0
+Requires-Dist: alembic==1.13.1
+Requires-Dist: annotated-types==0.6.0
+Requires-Dist: anyio==4.3.0
+Requires-Dist: click==8.1.7
+Requires-Dist: dependency-injector==4.41.0
+Requires-Dist: fastapi==0.110.1
+Requires-Dist: h11==0.14.0
+Requires-Dist: idna==3.7
+Requires-Dist: mako==1.3.3
+Requires-Dist: markupsafe==2.1.5
+Requires-Dist: psycopg2-binary==2.9.9
+Requires-Dist: pydantic==2.7.0
+Requires-Dist: pydantic-core==2.18.1
+Requires-Dist: pydantic-settings==2.2.1
+Requires-Dist: python-dotenv==1.0.1
+Requires-Dist: six==1.16.0
+Requires-Dist: sniffio==1.3.1
+Requires-Dist: sqlalchemy==2.0.29
+Requires-Dist: starlette==0.37.2
+Requires-Dist: typing-extensions==4.11.0
+Requires-Dist: uvicorn==0.29.0
+Provides-Extra: dev
+Requires-Dist: twine>=4.0.2; extra == "dev"
