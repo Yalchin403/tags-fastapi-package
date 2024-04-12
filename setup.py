@@ -8,7 +8,7 @@ def parse_requirements(filename):
 
 
 setup(
-    name="core-api",
+    name="core_api",
     version="0.0.1",
     author="Yalchin Mammadli",
     author_email="yalchinmammadli@outlook.com",

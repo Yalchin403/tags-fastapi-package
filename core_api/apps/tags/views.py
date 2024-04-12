@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException, status
-from apps.tags.services.containers import service_container
-from apps.tags.schemas import TagSerializer, TagInSerializer
+from core_api.apps.tags.services.containers import service_container
+from core_api.apps.tags.schemas import TagSerializer, TagInSerializer
 
 tag_service = service_container.tag_service()
 router = APIRouter()
@@ -12,7 +12,7 @@ router = APIRouter()
     response_model=list[TagSerializer],
     status_code=status.HTTP_200_OK,
 )
-async def list_keys():
+async def list_tags():
     try:
         return await tag_service.list_tags()
 

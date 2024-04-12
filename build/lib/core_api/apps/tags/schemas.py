@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 
-from apps.tags.models import Tag
+from core_api.apps.tags.models import Tag
 
 
 class TagSerializer(BaseModel):

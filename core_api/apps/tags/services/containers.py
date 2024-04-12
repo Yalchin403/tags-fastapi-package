@@ -1,5 +1,5 @@
 from dependency_injector import containers, providers
-from apps.tags.services.tags import TagService
+from core_api.apps.tags.services.tags import TagService
 
 
 class ServiceContainer(containers.DeclarativeContainer):

@@ -2,10 +2,10 @@ from typing import Any
 
 from sqlalchemy import exc
 
-from apps.tags.models import Tag
-from apps.core.db import DBSession
-from apps.core.error_codes import Errors
-from apps.core.exceptions import TagAlreadyExistsError, TagNotFoundError
+from core_api.apps.tags.models import Tag
+from core_api.apps.core.db import DBSession
+from core_api.apps.core.error_codes import Errors
+from core_api.apps.core.exceptions import TagAlreadyExistsError, TagNotFoundError
 
 
 class TagService:
